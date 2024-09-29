@@ -1,4 +1,4 @@
-import { email, github, linkedin, portfolio} from "../assets";
+import { email, github, linkedin, portfolio, resume} from "../assets";
 
 export const navLinks = [
     {
@@ -16,13 +16,15 @@ export const navLinks = [
     {
         id: "resume",
         title: "Resume",
+        link: resume
     },
 ];
 
 export const socialMedia = [
     {
-        id: "email",
-        icon: email,
+        id: "linkedin",
+        icon: linkedin,
+        link: "https://www.linkedin.com/in/jisol-park/",
     },
     {
         id: "github",
@@ -30,13 +32,13 @@ export const socialMedia = [
         link: "https://github.com/Jisolp",
     },
     {
-        id: "linkedin",
-        icon: linkedin,
-        link: "https://www.linkedin.com/in/jisol-park/",
+        id: "email",
+        icon: email,
+        link: "mailto:jisolp7@gmail.com"
     },
 ];
 
-export const projectIcon = [
+export const projectsLink = [
     {
         id: "portfolio",
         icon: portfolio,

@@ -6,6 +6,8 @@ import github from './github.svg';
 import linkedin from './linkedin.svg';
 import portfolio from './portfolio.png';
 import background from './background.png';
+import resume from './Jisol_Park_Resume.pdf';
+import downarrow from './downarrow.svg'
 
 export{
     close,
@@ -16,4 +18,6 @@ export{
     linkedin, 
     portfolio, 
     background,
+    resume,
+    downarrow,
 }
