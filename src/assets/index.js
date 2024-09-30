@@ -4,10 +4,15 @@ import myphoto from './myphoto.jpg';
 import email from './email.svg';
 import github from './github.svg';
 import linkedin from './linkedin.svg';
-import portfolio from './portfolio.png';
 import background from './background.png';
 import resume from './Jisol_Park_Resume.pdf';
-import downarrow from './downarrow.svg'
+import downarrow from './downarrow.svg';
+import cipher from './projectpic/ciphe.png';
+import finassist from './projectpic/finassist.png';
+import markit from './projectpic/markit.png';
+import portfolio from './projectpic/portfolio.png';
+import stocks from './projectpic/stocks.png';
+import zodiak from './projectpic/zodiak '
 
 export{
     close,
@@ -20,4 +25,9 @@ export{
     background,
     resume,
     downarrow,
+    cipher,
+    finassist,
+    markit,
+    stocks,
+    zodiak,
 }
