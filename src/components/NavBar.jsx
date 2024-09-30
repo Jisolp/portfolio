@@ -9,7 +9,7 @@ const NavBar = () => {
     <nav className="bg-transparent w-full flex py-6 justify-between items-center navbar">
       <ul className="bg-transparent list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[17px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-black font-semibold hover:text-yellow-100 mr-10`}>
+          <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[17px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-black hover:text-yellow-100 mr-10`}>
             {nav.link ? (
               <a href={nav.link} target="_blank" rel="noopener noreferrer">
                 {nav.title}

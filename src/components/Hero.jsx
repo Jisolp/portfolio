@@ -13,7 +13,7 @@ const Hero = () => (
 
     {/* Blurb */}
     <div className={`absolute top-1/3 left-0 right-0 text-center z-30`}>
-      <h1 className="font-semibold font-poppin text-[30px] xs:text-[90px]  text-neutral-800 xs:leading-[140px] leading-[70.8px] w-full"> Hi, I'm Jisol! </h1>
+      <h1 className="font-semibold font-poppin text-[25px] xs:text-[70px]  text-neutral-800 xs:leading-[140px] leading-[70.8px] w-full"> Hi, I'm Jisol! </h1>
       <p className="font-mono text-[20px] xs:text-[22px] text-black xs:leading-[30px] leading-[30px] w-full">I am a software engineer, and I love <a href="./Exploring" className="underline hover:text-yellow-100">exploring</a> and <a href= "./Projects" className="underline hover:text-yellow-100">building</a></p>
 
       {/* icons */}
