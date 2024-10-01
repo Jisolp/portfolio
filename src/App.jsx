@@ -1,5 +1,5 @@
 import styles from './style';
-import { Hero, About, Project, Footer } from './components';
+import { Hero, About, Project, Skills, Footer } from './components';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectDetail from './components/ProjectDetail'; 
 import Exploring from './components/Exploring';
@@ -23,6 +23,7 @@ const App = () => (
                 <Project />
               </div>
             </div>
+            <Skills />
           </>
         } />
 

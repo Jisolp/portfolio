@@ -8,7 +8,7 @@ const Project = () => (
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {projectsLink.map((project) => (
-        <Link key={project.id} to={`/projects/${project.id}`} className="bg-white rounded-lg shadow-md overflow-hidden">
+        <Link key={project.id} to={`/projects/${project.id}`} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105">
           <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
           <div className="p-4">
             <h3 className="font-semibold text-lg">{project.title}</h3>

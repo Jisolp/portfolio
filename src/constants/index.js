@@ -44,6 +44,8 @@ export const projectsLink = [
         image: finassist,
         title: "AI-Powered Personal Finance Assistant",
         techStack: ['React','Node,js etc'],
+        description: "hell0 yes why yes htis is the project ok?",
+        github: 'https://github.com/Jisolp'
     },
     {
         id: "MarkIt",
@@ -62,6 +64,8 @@ export const projectsLink = [
         image: portfolio,
         title: "Personal Portfolio",
         techStack: ['React','Node,js etc'],
+        github: 'https://github.com/Jisolp/myportfolio',
+        figma: 'https://www.figma.com/design/zog5fo6LR8bV4ynyGHYIrl/personal-portfolio?node-id=0-1&t=zh4QMfqoQyxbP8xS-1',
     },
     {
         id: "Zodiak",
