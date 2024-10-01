@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { projectsLink } from '../constants';
 import NavBar from './NavBar';
+import styles from '../style';
 
 const ProjectDetail = () => {
   const { id } = useParams(); 
@@ -18,10 +19,8 @@ const ProjectDetail = () => {
       {/* Main content area */}
       <div className="flex flex-col lg:flex-row flex-1 p-6">
         <div className="flex-1">
-          <h1 className="text-3xl font-semibold mb-4">{project.title}</h1>
-
-          <h2 className="mt-4 text-xl font-semibold">Description</h2>
-          <p>{project.description || "No description available."}</p>
+          <h1 className={`${styles.heading1} mb-2`}>{project.title}</h1>
+          <p className={`${styles.paragraph}`}>{project.description || "No description available."}</p>
         </div>
 
         {/* Link Boxes */}
