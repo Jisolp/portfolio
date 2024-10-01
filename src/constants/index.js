@@ -40,39 +40,39 @@ export const socialMedia = [
 
 export const projectsLink = [
     {
-        id: "finassist",
+        id: "Finassist",
         image: finassist,
-        title: "finassist",
+        title: "AI-Powered Personal Finance Assistant",
         techStack: ['React','Node,js etc'],
     },
     {
-        id: "markit",
+        id: "MarkIt",
         image: markit,
-        title: "markit",
+        title: "MarkIt",
         techStack: ['React','Node,js etc'],
     },
     {
-        id: "portfolio",
-        image: portfolio,
-        title: "portfolio",
-        techStack: ['React','Node,js etc'],
-    },
-    {
-        id: "stocks",
+        id: "Stocks",
         image: stocks,
-        title: "stocks",
+        title: "Financial Data Pipeline and Visualization System for Stock Market Indice",
         techStack: ['React','Node,js etc'],
     },
     {
-        id: "zodiak",
+        id: "Portfolio",
+        image: portfolio,
+        title: "Personal Portfolio",
+        techStack: ['React','Node,js etc'],
+    },
+    {
+        id: "Zodiak",
         image: zodiak,
-        title: "zodiak",
+        title: "Zodiak",
         techStack: ['React','Node,js etc'],
     },
     {
-        id: "cipher",
+        id: "Cipher",
         image: cipher,
-        title: "cipher",
+        title: "Cipher",
         techStack: ['React','Node,js etc'],
     },
 ]

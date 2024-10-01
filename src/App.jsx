@@ -1,28 +1,39 @@
 import styles from './style';
-import { Hero, About, Project, Footer} from './components';
+import { Hero, About, Project, Footer } from './components';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProjectDetail from './components/ProjectDetail'; 
+import Exploring from './components/Exploring';
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <NavBar></NavBar>
-      </div>
-    </div> */}
+  <Router>
+    <div className="bg-primary w-full overflow-hidden">
+      <Routes>
+        {/* Home route displaying the Hero, About, and Project components */}
+        <Route path="/" element={
+          <>
+            <div className={`bg-secondary ${styles.flexStart}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Hero />
+                <About />
+              </div>
+            </div>
 
-    <div className={`bg-secondary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero></Hero>
-      </div>
+            <div className={`bg-white ${styles.flexStart}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Project />
+              </div>
+            </div>
+          </>
+        } />
+
+        {/* Route for individual project details */}
+        <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/exploring" element={<Exploring />} />
+      </Routes>
+
+      <Footer />
     </div>
+  </Router>
+);
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <About></About>
-        <Project></Project>
-        <Footer></Footer>
-      </div>
-    </div>
-  </div>
-)
-
-export default App
+export default App;
