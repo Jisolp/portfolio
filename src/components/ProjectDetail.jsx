@@ -1,11 +1,14 @@
-import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { projectsLink } from '../constants';
 import NavBar from './NavBar';
 import styles from '../style';
+import React, { useEffect } from 'react';
 
 const ProjectDetail = () => {
-  const { id } = useParams(); 
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to the top of the page
+    }, []);
+    const { id } = useParams(); 
   const project = projectsLink.find((proj) => proj.id.toString() === id);
 
   if (!project) {
@@ -19,7 +22,7 @@ const ProjectDetail = () => {
       {/* Main content area */}
       <div className="flex flex-col lg:flex-row flex-1 p-6">
         <div className="flex-1">
-          <h1 className={`${styles.heading1} mb-2`}>{project.title}</h1>
+          <h1 className={`${styles.heading1} text-wrap mt-10 mb-2`}>{project.title}</h1>
           <p className={`${styles.paragraph}`}>{project.description || "No description available."}</p>
         </div>
 
@@ -100,5 +103,4 @@ const ProjectDetail = () => {
     </div>
   );
 };
-
 export default ProjectDetail;

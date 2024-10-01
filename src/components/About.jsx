@@ -15,7 +15,7 @@ const About = () => (
 
       <h1 className={`${styles.heading1}`}>About Me</h1>
       <p className={`${styles.paragraph}  leading-[20px] md:leading-[24px] mt-4`}> 
-        Hi, I'm a UCSD Math and CS student. I'm a software engineer with a strong background in full-stack development and machine learning. I have experiences from developing scalable web applications to implementing AI-driven solutions.
+        Hi, I'm currently a Math, CS student at UCSD. I'm a software engineer with a strong background in full-stack development and machine learning. I have experiences from developing scalable web applications to implementing AI-driven solutions.
       </p>
 
       <p className={`${styles.paragraph} leading-[20px] md:leading-[24px] mt-4`}> 

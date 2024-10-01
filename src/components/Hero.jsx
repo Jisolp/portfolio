@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => (
   <section id="home" className="relative w-full h-screen">
-    <div className="absolute top-0 left-0 w-full z-20">
-      <NavBar />
-    </div>
     <img src={background} alt="background" className="w-full h-full object-cover" />
 
     {/* Blurb */}

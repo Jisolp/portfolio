@@ -1,9 +1,21 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom"; 
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
+  const navigate = useNavigate(); 
+
+  const scrollToSection = (id) => {
+    navigate("/"); 
+    setTimeout(() => { 
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' }); 
+      }
+    }, 0);
+  };
 
   return (
     <nav className="bg-transparent w-full flex py-6 justify-between items-center navbar">
@@ -18,9 +30,9 @@ const NavBar = () => {
                 {nav.title}
               </a>
             ) : (
-              <a href={`#${nav.id}`}>
+              <button onClick={() => scrollToSection(nav.id)}> 
                 {nav.title}
-              </a>
+              </button>
             )}
           </li>
         ))}
@@ -47,9 +59,9 @@ const NavBar = () => {
                     {nav.title}
                   </a>
                 ) : (
-                  <a href={`#${nav.id}`}>
+                  <button onClick={() => scrollToSection(nav.id)}> {/* Call the scroll function */}
                     {nav.title}
-                  </a>
+                  </button>
                 )}
               </li>
             ))}

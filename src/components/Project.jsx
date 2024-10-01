@@ -4,7 +4,7 @@ import { projectsLink } from '../constants';
 
 const Project = () => (
   <section id="projects" className="p-6 xs:p-10 h-auto bg-gray-100">
-    <h1 className={`${styles.heading1}`}>My Projects</h1>
+    <h1 className={`${styles.heading1} mb-3`}>My Projects</h1>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {projectsLink.map((project) => (

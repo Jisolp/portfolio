@@ -73,11 +73,5 @@ export const projectsLink = [
         title: "Zodiak",
         techStack: ['React','Node,js etc'],
     },
-    {
-        id: "Cipher",
-        image: cipher,
-        title: "Cipher",
-        techStack: ['React','Node,js etc'],
-    },
 ]
 

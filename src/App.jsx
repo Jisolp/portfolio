@@ -1,14 +1,15 @@
 import styles from './style';
-import { Hero, About, Project, Skills, Footer } from './components';
+import { Hero, About, Project, Skills, Footer, NavBar } from './components'; // Ensure NavBar is imported
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectDetail from './components/ProjectDetail'; 
 import Exploring from './components/Exploring';
 
 const App = () => (
   <Router>
-    <div className="bg-primary w-full overflow-hidden">
+    <div className="bg-primary w-full overflow-hidden relative">
+      <NavBar /> 
+
       <Routes>
-        {/* Home route displaying the Hero, About, and Project components */}
         <Route path="/" element={
           <>
             <div className={`bg-secondary ${styles.flexStart}`}>

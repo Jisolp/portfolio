@@ -13,6 +13,7 @@ import markit from './projectpic/markit.png';
 import portfolio from './projectpic/portfolio.png';
 import stocks from './projectpic/stocks.png';
 import zodiak from './projectpic/zodiak.png';
+import logo from './logo.png'
 
 export{
     close,
@@ -30,4 +31,5 @@ export{
     markit,
     stocks,
     zodiak,
+    logo,
 }
