@@ -16,7 +16,7 @@ const ProjectDetail = () => {
   }
 
   return (
-    <div className="w-full h-screen flex flex-col">
+    <div className="w-full min-h-screen overflow-y-auto flex flex-col">
       <NavBar />
 
       {/* Main content area */}
@@ -57,7 +57,7 @@ const ProjectDetail = () => {
           </div>
 
           {/* Tech Stack */}
-          <div className="bg-white border border-blue-500 rounded-md shadow p-4 mb-4">
+          <div className="bg-white border border-blue-500 rounded-md shadow p-4 mb-3 xs-mb-1">
             <h2 className="text-xl font-semibold">Tech Stack</h2>
             <hr className="border-gray-300 my-2" />
              <ul className="list-disc list-inside">

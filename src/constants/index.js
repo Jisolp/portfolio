@@ -109,7 +109,7 @@ export const projectsLink = [
 export const locations =[
     {
         id:1,
-        location:"Gilder Port",
+        name:"Gilder Port",
         category: ['Sunset','Activity'],
         coordinate: [32.7157,-117.1611],
         rating: 4.5,

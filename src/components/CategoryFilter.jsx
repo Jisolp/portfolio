@@ -13,7 +13,8 @@ const CategoryFilter = ({ selectedCategories, setSelectedCategories }) => {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-lg max-w-xs">
-      <h3 className="text-xl font-semibold mb-4">Filter by Category</h3>
+      <h3 className="text-xl font-semibold mb-2">Category</h3>
+      <hr className="border-gray-300 my-2" /> 
       {categories.map((category, index) => (
         <div key={index} className="mb-2">
           <input
