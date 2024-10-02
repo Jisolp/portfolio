@@ -22,12 +22,12 @@ const ProjectDetail = () => {
       {/* Main content area */}
       <div className="flex flex-col lg:flex-row flex-1 p-6">
         <div className="flex-1">
-          <h1 className={`${styles.heading1} text-wrap mt-10 mb-2`}>{project.title}</h1>
-          <p className={`${styles.paragraph}`}>{project.description || "No description available."}</p>
+          <h1 className={`${styles.heading1} ml-3 mr-3 text-wrap mt-10 mb-2`}>{project.title}</h1>
+          <div className={`${styles.paragraph} ml-3 mr-3`} dangerouslySetInnerHTML={{ __html: project.description || "<p>No description available.</p>" }}/>
         </div>
 
         {/* Link Boxes */}
-        <div className="flex flex-col ml-4 lg:w-1/3">
+        <div className="flex flex-col ml-4 mt-20 lg:w-1/3">
           <div className="bg-white border border-blue-500 rounded-md shadow p-4 mb-2">
             <h2 className="text-xl font-semibold">Links</h2>
             <hr className="border-gray-300 my-2" /> 
@@ -58,16 +58,20 @@ const ProjectDetail = () => {
 
           {/* Tech Stack */}
           <div className="bg-white border border-blue-500 rounded-md shadow p-4 mb-4">
-            <h2 className="text-xl font-semibold">Technologies Used</h2>
+            <h2 className="text-xl font-semibold">Tech Stack</h2>
             <hr className="border-gray-300 my-2" />
-            <p>{project.techStack.join(', ')}</p>
+             <ul className="list-disc list-inside">
+              {project.techStack.map((tech, index) => (
+                <li key={index} className="text-gray-700">{tech}</li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
 
-      {/* Other Works Section - Moved Outside the Flex Container */}
+      {/* Other Works Section */}
       <div className="mt-4 p-6">
-        <h2 className="text-xl font-semibold">Check out my other works:</h2>
+        <h2 className="text-xl font-semibold">Check out my other work:</h2>
         <div className="overflow-x-auto mt-2"> {/* Enable horizontal scrolling */}
           <ul className="flex space-x-4 whitespace-nowrap"> {/* Keep items on one line */}
             {projectsLink.map((proj) => (

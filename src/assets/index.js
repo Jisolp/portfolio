@@ -7,12 +7,13 @@ import linkedin from './linkedin.svg';
 import background from './background.png';
 import resume from './Jisol_Park_Resume.pdf';
 import downarrow from './downarrow.svg';
-import cipher from './projectpic/cipher.png';
 import finassist from './projectpic/finassist.png';
 import markit from './projectpic/markit.png';
 import portfolio from './projectpic/portfolio.png';
 import stocks from './projectpic/stocks.png';
 import zodiak from './projectpic/zodiak.png';
+import health from './projectpic/health.png';
+import travel from './projectpic/travel.png';
 import logo from './logo.png'
 
 export{
@@ -26,10 +27,11 @@ export{
     background,
     resume,
     downarrow,
-    cipher,
     finassist,
     markit,
     stocks,
     zodiak,
+    health,
+    travel,
     logo,
 }
