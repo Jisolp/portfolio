@@ -15,11 +15,11 @@ const About = () => (
 
       <h1 className={`${styles.heading1}`}>About Me</h1>
       <p className={`${styles.paragraph}  leading-[20px] md:leading-[24px] mt-4`}> 
-        Hi, I'm currently a Math, CS student at UCSD. I'm a software engineer with a strong background in full-stack development and machine learning. I have experiences from developing scalable web applications to implementing AI-driven solutions.
+        Hi, I am currently a Math, CS student at UCSD. I am a software engineer with a strong background in <strong>full-stack development and AI</strong>. I have experiences from developing scalable web applications to implementing AI-driven solutions. In my free time, I love reading, running, and snowboarding!
       </p>
 
       <p className={`${styles.paragraph} leading-[20px] md:leading-[24px] mt-4`}> 
-        In my free time, I love reading, running, and snowboarding!
+        Right Now, I am <strong>looking for opportunities</strong> where I can continue to learn and contribute to meaningful projects! Looking forward to hearing from you!
       </p>
     </div>
   </section>
