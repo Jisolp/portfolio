@@ -12,18 +12,10 @@ const App = () => (
       <Routes>
         <Route path="/" element={
           <>
-            <div className={`bg-secondary ${styles.flexStart}`}>
-              <div className={`${styles.boxWidth}`}>
-                <Hero />
-                <About />
-              </div>
-            </div>
 
-            <div className={`bg-white ${styles.flexStart}`}>
-              <div className={`${styles.boxWidth}`}>
-                <Project />
-              </div>
-            </div>
+            <Hero />
+            <About />
+            <Project />
             <Skills />
           </>
         } />

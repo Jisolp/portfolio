@@ -14,6 +14,7 @@ import stocks from './projectpic/stocks.png';
 import zodiak from './projectpic/zodiak.png';
 import health from './projectpic/health.png';
 import travel from './projectpic/travel.png';
+import leetcode from './projectpic/leetcode.png';
 import logo from './logo.png'
 
 export{
@@ -33,5 +34,6 @@ export{
     zodiak,
     health,
     travel,
+    leetcode,
     logo,
 }

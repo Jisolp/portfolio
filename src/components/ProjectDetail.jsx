@@ -72,8 +72,8 @@ const ProjectDetail = () => {
       {/* Other Works Section */}
       <div className="mt-4 p-6">
         <h2 className="text-xl font-semibold">Check out my other work:</h2>
-        <div className="overflow-x-auto mt-2"> {/* Enable horizontal scrolling */}
-          <ul className="flex space-x-4 whitespace-nowrap"> {/* Keep items on one line */}
+        <div className="overflow-x-auto mt-2"> 
+          <ul className="flex space-x-4 whitespace-nowrap"> 
             {projectsLink.map((proj) => (
               <li key={proj.id} className="flex items-center">
                 {/* Highlight current project */}

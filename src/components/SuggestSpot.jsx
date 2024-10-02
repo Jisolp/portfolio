@@ -1,31 +1,29 @@
 import React, { useState } from 'react';
+import SuggestionPopUp from './SuggestionPopUp';
 
 const SuggestSpot = () => {
-    const [suggestion, setSuggestion] = useState('');
+  const [isPopUpOpen, setIsPopUpOpen] = useState(false);
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Here you would typically send the suggestion to an email or a server
-        alert(`Thank you for suggesting: ${suggestion}`);
-        setSuggestion('');
-    };
+  const handleOpenPopUp = () => {
+    setIsPopUpOpen(true);
+  };
 
-    return (
-        <div className="suggest-spot">
-            <h2>Suggest a Spot</h2>
-            <form onSubmit={handleSubmit}>
-                <input 
-                    type="text" 
-                    value={suggestion} 
-                    onChange={(e) => setSuggestion(e.target.value)} 
-                    placeholder="Enter spot name" 
-                    required 
-                />
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    );
+  const handleClosePopUp = () => {
+    setIsPopUpOpen(false);
+  };
+
+  return (
+    <div>
+      <button 
+        className="bg-third text-white px-4 py-2 rounded" 
+        onClick={handleOpenPopUp}
+      >
+        Suggest a Spot
+      </button>
+
+      <SuggestionPopUp isOpen={isPopUpOpen} onClose={handleClosePopUp} />
+    </div>
+  );
 };
 
 export default SuggestSpot;
-

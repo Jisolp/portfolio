@@ -1,6 +1,5 @@
 import styles from '../style';
 import { background, downarrow } from '../assets';
-import NavBar from './NavBar';
 import { socialMedia } from '../constants';
 import { Link } from 'react-router-dom';
 

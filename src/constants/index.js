@@ -1,4 +1,4 @@
-import { email, github, linkedin, resume, finassist, markit, health, travel, portfolio, stocks, zodiak} from "../assets";
+import { email, github, linkedin, resume, finassist, markit, health, travel, portfolio, stocks, zodiak, leetcode} from "../assets";
 
 export const navLinks = [
     {
@@ -83,7 +83,7 @@ export const projectsLink = [
         <h4><strong>Model Training:</strong></h4>
         <p>The <code>model_training.py</code> script leverages the processed data to train a machine learning model. In this case, I used a Random Forest Regressor to predict stock market index values.`,
         techStack: ['Python', 'Pandas', 'Scikit-Learn', 'NumPy'],
-
+        github: "https://github.com/Jisolp/financial-data-pipeline-project-",
     },
     {
         id: "Portfolio",
@@ -106,3 +106,14 @@ export const projectsLink = [
     },
 ]
 
+export const locations =[
+    {
+        id:1,
+        location:"Gilder Port",
+        category: ['Sunset','Activity'],
+        coordinate: [32.7157,-117.1611],
+        rating: 4.5,
+        review: 'hit or miss sunset',
+        googlelink: 'https://g.co/kgs/XKM1NnD',
+    },
+]
