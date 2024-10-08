@@ -5,7 +5,7 @@ import { Icon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const customIcon = new Icon({
-  iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png', // Example marker icon
+  iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png', 
   iconSize: [20, 20],
 });
 
@@ -14,14 +14,14 @@ const Map = ({ selectedCategories }) => {
     selectedCategories.every((category) => loc.category.includes(category))
   );
 
-  const defaultCenter = [32.7157, -117.1611]; // San Diego coordinates
+  const defaultCenter = [32.7157, -117.1611]; // San Diego 
 
   return (
     <div className="relative w-full h-full">
     <MapContainer
-      center={defaultCenter} // Center point
-      zoom={12}  // Appropriate zoom level for your map
-      style={{ height: '100vh', width: '100%' }} // Full height/width
+      center={defaultCenter} 
+      zoom={12}  
+      style={{ height: '100vh', width: '100%' }}
     >
         {/* Add TileLayer to load map tiles (streets, terrain, etc.) */}
         <TileLayer
@@ -39,7 +39,7 @@ const Map = ({ selectedCategories }) => {
               <div>
                 <h4>{location.name}</h4>
                 <p>{location.review}</p>
-                <a href={location.map} target="_blank" rel="noopener noreferrer">
+                <a href={location.google} target="_blank" rel="noopener noreferrer">
                   Open in Google Maps
                 </a>
               </div>

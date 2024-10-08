@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CategoryFilter = ({ selectedCategories, setSelectedCategories }) => {
-  const categories = ['Sunset Spots', 'Trails/Hiking','Activity', 'Cafe', 'Food'];
+  const categories = ['Sunset Spots', 'Trails/Hiking','Activity', 'Cafe', 'Food','Park','Libary'];
 
   const handleCheckboxChange = (category) => {
     if (selectedCategories.includes(category)) {

@@ -8,7 +8,7 @@ const LocationList = ({ selectedCategories }) => {
   );
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-lg overflow-y-auto max-h-64 max-w-xs">
+    <div className="bg-white p-4 rounded-lg shadow-lg overflow-y-auto max-h-96 max-w-xs">
       <h3 className="text-xl font-semibold mb-2">Results</h3>
       <hr className="border-gray-300 my-2" />
       
