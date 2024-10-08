@@ -109,11 +109,12 @@ export const projectsLink = [
 export const locations =[
     {
         id:1,
-        name:"Gilder Port",
-        category: ['Sunset','Activity'],
-        coordinate: [32.7157,-117.1611],
+        name:"Gilderport",
+        category: ['Sunset Spots','Activity'],
+        coordinate: [32.8899,-117.2512],
         rating: 4.5,
-        review: 'hit or miss sunset',
+        review: 'good sunset (sometimes hit or miss), fun hike down to the beach',
         googlelink: 'https://g.co/kgs/XKM1NnD',
+        map: 'https://www.google.com/maps?sca_esv=4997d9601951f80e&cs=0&kgmid=/m/04gvgnd&shndl=30&kgs=bc950477df71dd11&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KZuyDAiTBtyAMeByZKoGTySP&daddr=2800+Torrey+Pines+Scenic+Dr,+La+Jolla,+CA+92037',
     },
 ]

@@ -2,6 +2,7 @@ import React from 'react';
 import { locations } from '../constants';
 
 const LocationList = ({ selectedCategories }) => {
+  // Filter locations based on selected categories
   const filteredLocations = locations.filter((loc) =>
     selectedCategories.every((category) => loc.category.includes(category))
   );
@@ -9,15 +10,19 @@ const LocationList = ({ selectedCategories }) => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-lg overflow-y-auto max-h-64 max-w-xs">
       <h3 className="text-xl font-semibold mb-2">Results</h3>
-      <hr className="border-gray-300 my-2" /> 
+      <hr className="border-gray-300 my-2" />
+      
       {filteredLocations.length > 0 ? (
         <ul>
           {filteredLocations.map((location) => (
-            <li key={location.id} className="mb-4">
-              <h4 className="font-bold">{location.name}</h4>
-              <p className="text-sm"> {location.rating}/5</p>
-              <p className="text-gray-600">{location.review}</p>
-              <p className="text-gray-600">{location.googlelink}</p>
+            <li 
+              key={location.id}
+              onClick={() => window.open(location.googlelink, "_blank")}
+              className="mb-4 p-4 border rounded-md shadow-sm hover:border-gray-950 cursor-pointer transition duration-200"
+            >
+              <div className="font-semibold text-lg">{location.name}</div>
+              <p className="text-sm">{location.rating}/5</p>
+              <p className="text-sm text-gray-600">{location.review}</p>
             </li>
           ))}
         </ul>
