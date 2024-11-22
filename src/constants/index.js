@@ -82,7 +82,7 @@ export const projectsLink = [
         id: "Portfolio",
         image: portfolio,
         title: "Personal Portfolio",
-        description:`<p> This is my personal portfolio page which showcases the various projects I have completed and my skill sets as a software engineer. To add a personal touch, I incorporated a component where you can explore some of my favorite (hikes, cafe, food, etc). To access this page, simply go to the home page and click on the word "<u>exploring</u>".</p>
+        description:`<p> This is my personal portfolio page which showcases the various projects I have completed and my skill sets as a software engineer. To add a personal touch, I incorporated a component where you can explore some of my favorite places in SD (hikes, cafe, food, etc). To access this page, simply go to the home page and click on the word "<u>exploring</u>".</p>
         <br> <p> Happy exploring!</p>`,
         techStack: ['React','JavaScript','Tailwind CSS'],
         github: 'https://github.com/Jisolp/myportfolio',
