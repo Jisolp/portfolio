@@ -271,7 +271,31 @@ export const locations =[
         review: 'little expensive, SUCH A GOOD LOBSTER ROLL',
         googlelink: "https://www.google.com/maps/place/Ironside+Fish+%26+Oyster/@32.7226798,-117.1711542,17z/data=!3m1!4b1!4m6!3m5!1s0x80d954adef812e3d:0x19c9da525de9706b!8m2!3d32.7226753!4d-117.1685793!16s%2Fg%2F1q5brm6y_?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D",
     },
-    
-    
-    
+    {
+        id:18,
+        name:"Solana Beach to Encinitas Run",
+        category: ['Trails/Hiking'],
+        coordinate: [32.98026931763747, -117.26946024084683],
+        rating: 4,
+        review: 'street park and run up towards encinitas for 5 miles and back! 10 mi run, 285 ft elevation gain',
+        googlelink: "https://www.google.com/maps/place/100+Border+Ave,+Del+Mar,+CA+92014/@32.9803511,-117.2701436,19.16z/data=!4m6!3m5!1s0x80dc0f2a91625e59:0x884ec0ef8c73d6c2!8m2!3d32.9805316!4d-117.2694912!16s%2Fg%2F11c1jmqqt6?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D",
+    },
+    {
+        id:19,
+        name:"PB boardwalk ",
+        category: ['Trails/Hiking'],
+        coordinate: [32.79944137330567, -117.2555340001346],
+        rating: 4.5,
+        review: 'goes down to mission beach, flat and along the beach',
+        googlelink: "https://www.google.com/maps/place/Pacific+Beach/@32.7735369,-117.2881497,13z/data=!4m10!1m2!2m1!1spb+boardwalk+!3m6!1s0x80dc014b901faf23:0xfc9dbe00ba74e8a2!8m2!3d32.7965049!4d-117.2566967!15sCgxwYiBib2FyZHdhbGtaDiIMcGIgYm9hcmR3YWxrkgESdG91cmlzdF9hdHRyYWN0aW9umgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJQYWpWSWNqQkJSUkFC4AEA!16s%2Fg%2F11f8jwx1xp?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D",
+    },
+    {
+        id:20,
+        name:"Verbatim Books",
+        category: ['Library'],
+        coordinate: [32.74745882376888, -117.13003949223936],
+        rating: 4,
+        review: 'second hand books! found a really good essay book her. it is also near some of my fav cafes',
+        googlelink: "https://www.google.com/maps/place/Verbatim+Books/@32.7472152,-117.1325071,16z/data=!3m1!4b1!4m6!3m5!1s0x80d954f4372a378b:0xabf42c1e465fd15e!8m2!3d32.7472107!4d-117.1299322!16s%2Fg%2F11cjj9bx99?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D",
+    },
 ]
