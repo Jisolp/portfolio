@@ -9,7 +9,7 @@ const LocationList = ({ selectedCategories }) => {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-lg overflow-y-auto max-h-96 max-w-xs">
-      <h3 className="text-xl font-semibold mb-2">Results</h3>
+      <h3 className="text-xl font-semibold mb-2">Suggestions!</h3>
       <hr className="border-gray-300 my-2" />
       
       {filteredLocations.length > 0 ? (

@@ -18,7 +18,7 @@ const SuggestSpot = () => {
         className="bg-third text-white px-4 py-2 rounded" 
         onClick={handleOpenPopUp}
       >
-        Suggest a Spot
+        Suggest a Spot!
       </button>
 
       <SuggestionPopUp isOpen={isPopUpOpen} onClose={handleClosePopUp} />
