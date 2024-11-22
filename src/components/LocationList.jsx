@@ -1,7 +1,7 @@
 import React from 'react';
 import { locations } from '../constants';
 
-const LocationList = ({ selectedCategories }) => {
+const LocationList = ({ selectedCategories , onSelectLocation}) => {
   // Filter locations based on selected categories
   const filteredLocations = locations.filter((loc) =>
     selectedCategories.some((category) => loc.category.includes(category))
@@ -17,7 +17,7 @@ const LocationList = ({ selectedCategories }) => {
           {filteredLocations.map((location) => (
             <li 
               key={location.id}
-              onClick={() => window.open(location.googlelink, "_blank")}
+              onClick={() => onSelectLocation(location)}
               className="mb-4 p-4 border rounded-md shadow-sm hover:border-gray-950 cursor-pointer transition duration-200"
             >
               <div className="font-semibold text-lg">{location.name}</div>

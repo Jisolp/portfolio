@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const CategoryFilter = ({ selectedCategories, setSelectedCategories }) => {
-  const categories = ['Sunset Spots', 'Trails/Hiking','Activity', 'Cafe', 'Food','Park','Library'];
+  const categories = ['Sunset Spots', 'Trails/Hiking', 'Activity', 'Cafe', 'Food', 'Park', 'Library'];
+
+  useEffect(() => {
+    if (selectedCategories.length === 0) {
+      setSelectedCategories(categories); 
+    }
+  }, [selectedCategories, setSelectedCategories, categories]);
 
   const handleCheckboxChange = (category) => {
     if (selectedCategories.includes(category)) {
@@ -14,7 +20,7 @@ const CategoryFilter = ({ selectedCategories, setSelectedCategories }) => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-lg max-w-xs">
       <h3 className="text-xl font-semibold mb-2">Category</h3>
-      <hr className="border-gray-300 my-2" /> 
+      <hr className="border-gray-300 my-2" />
       {categories.map((category, index) => (
         <div key={index} className="mb-2">
           <input

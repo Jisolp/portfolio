@@ -101,7 +101,7 @@ export const projectsLink = [
 
 export const locations =[
     {
-        id:1,
+        id:0,
         name:"Gilderport",
         category: ['Sunset Spots','Trails/Hiking'],
         coordinate: [32.8899,-117.2512],
@@ -110,7 +110,7 @@ export const locations =[
         googlelink: 'https://www.google.com/maps/dir//Gliderport+Trl,+San+Diego,+CA+92037/@32.8886415,-117.2717261,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80dc06965d8d9477:0xc820af2967845659!2m2!1d-117.2511266!2d32.8886432?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D',
     },
     {
-        id:2,
+        id:1,
         name:"Annie's Canyon",
         category: ['Trails/Hiking'],
         coordinate: [33.00572198, -117.26389127],
@@ -119,7 +119,7 @@ export const locations =[
         googlelink: 'https://www.google.com/maps?sca_esv=a68d2f8b7b299017&output=search&q=annie%27s+canyon&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5fCQuDw5vrzPt_cVO2GgWUj9lYp6rkuKNKs7T0vX7Q81Ek5YpPyUVFe3W7KrgIFN0yr210hnrD8iUeaBLQnVQx6xj_2rK51OT45p2-pNecGYGnmKIXSx0uVV4QrbXN8rzF_OS7YkBBO-_3NzudI87-yS3TEd_g5PthVlYyBSDYpFG4Prg&entry=mc&ved=1t:200715&ictx=111',
     },
     {
-        id:3,
+        id:2,
         name:"Secret Swings",
         category: ['Activity','Sunset Spots'],
         coordinate: [32.848577, -117.267805],
@@ -128,7 +128,7 @@ export const locations =[
         googlelink: 'https://www.google.com/maps/place/1327+Coast+Walk+Trail,+La+Jolla,+CA+92037/@32.8490839,-117.2792727,15z/data=!3m1!4b1!4m6!3m5!1s0x80dc03fd9f50c0d9:0x61300b5bbe66f76e!8m2!3d32.8490843!4d-117.268973!16s%2Fg%2F11tfkh4l7h?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D',
     },
     {
-        id:4,
+        id:3,
         name:"The Cat Lounge Rescue and Adoption Center",
         category: ['Cafe'],
         coordinate: [32.842373200493604, -117.27274144817292],
@@ -137,7 +137,7 @@ export const locations =[
         googlelink: 'https://www.google.com/maps/dir//1006+Torrey+Pines+Rd,+La+Jolla,+CA+92037/@32.8422262,-117.3552241,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80dc03d8bac08b95:0xedfa6edf8fcf661b!2m2!1d-117.2728229!2d32.8422532?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D',
     },
     {
-        id:5,
+        id:4,
         name:"The Flower Pot Cafe and Bakery",
         category: ['Cafe'],
         coordinate: [32.84073281852215, -117.27411399000351],
@@ -295,7 +295,7 @@ export const locations =[
         category: ['Library'],
         coordinate: [32.74745882376888, -117.13003949223936],
         rating: 4,
-        review: 'second hand books! found a really good essay book her. it is also near some of my fav cafes',
+        review: 'second hand books! found a really good essay book here. it is also near some of my fav cafes',
         googlelink: "https://www.google.com/maps/place/Verbatim+Books/@32.7472152,-117.1325071,16z/data=!3m1!4b1!4m6!3m5!1s0x80d954f4372a378b:0xabf42c1e465fd15e!8m2!3d32.7472107!4d-117.1299322!16s%2Fg%2F11cjj9bx99?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D",
     },
 ]
