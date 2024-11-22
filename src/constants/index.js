@@ -44,7 +44,7 @@ export const projectsLink = [
         image: travel,
         title: "Travel Buddy",
         techStack: ['React','Node,js etc'],
-        description: "hell0 yes why yes htis is the project ok?",
+        description: "I’m developing a personalized travel planning app that brings together the best experiences tailored to each user’s unique interests and budget. Unlike other travel apps, this platform goes beyond generic recommendations by allowing users to select specific preferences—such as nature, city exploration, food, or nightlife—and by incorporating detailed budget and activity-level constraints. Users simply enter their travel dates, budget, and preferences, and the app generates a curated itinerary featuring optimized routes, activity suggestions, packing lists, and recommended flights, accommodations, and car rentals. What sets this app apart is its focus on real-time adaptability (for updates like weather changes), budget-conscious planning, and an eco-friendly travel option for sustainability-focused travelers. With downloadable itineraries and notifications for last-minute recommendations, my goal is to make travel both seamless and memorable for every type of adventurer.",
         github: 'https://github.com/Jisolp'
     },
     {
@@ -52,7 +52,6 @@ export const projectsLink = [
         image: health,
         title: "Health",
         techStack: ['React','Node,js etc'],
-        description: "hell0 yes why yes htis is the project ok?",
         github: 'https://github.com/Jisolp'
     },
     {
@@ -60,7 +59,7 @@ export const projectsLink = [
         image: finassist,
         title: "AI-Powered Personal Finance Assistant",
         techStack: ['React','Node,js etc'],
-        description: "hell0 yes why yes htis is the project ok?",
+        description: "This full-stack web application provides a personalized finance management experience, enabling users to easily track income, expenses, and savings across accounts like HYSA and Roth IRA. Built with React, Node.js, and MongoDB, the app empowers users to set financial goals, analyze spending patterns, and make data-driven decisions. Features include budgeting tools, personalized spending insights, and email reminders to help users stay on track with their goals. A machine learning component leverages Python and TensorFlow to predict expenses and offer budgeting and investment recommendations, ensuring that users receive tailored, proactive financial advice for smarter financial planning.",
         github: 'https://github.com/Jisolp'
     },
     {
