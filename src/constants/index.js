@@ -238,7 +238,7 @@ export const locations =[
     {
         id:14,
         name:"Hilltop Park",
-        category: ['Park, Sunset Spot'],
+        category: ['Park', 'Sunset Spot'],
         coordinate: [32.97076761275962, -117.11921145397434],
         rating: 4.5,
         review: 'on clear days you can see the beach, when the clouds are low you will be on top of the clouds! ',
@@ -247,7 +247,7 @@ export const locations =[
     {
         id:15,
         name:"Kate Sessions Park",
-        category: ['Park, Sunset Spot'],
+        category: ['Park', 'Sunset Spot'],
         coordinate: [32.81144974800412, -117.23731081866212],
         rating: 4,
         review: 'amazing place to take a nap, see sunset. at night, you can also see the fireworks from SeaWorld',

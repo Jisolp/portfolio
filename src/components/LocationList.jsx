@@ -4,7 +4,7 @@ import { locations } from '../constants';
 const LocationList = ({ selectedCategories }) => {
   // Filter locations based on selected categories
   const filteredLocations = locations.filter((loc) =>
-    selectedCategories.every((category) => loc.category.includes(category))
+    selectedCategories.some((category) => loc.category.includes(category))
   );
 
   return (

@@ -11,7 +11,7 @@ const customIcon = new Icon({
 
 const Map = ({ selectedCategories }) => {
   const filteredLocations = locations.filter((loc) =>
-    selectedCategories.every((category) => loc.category.includes(category))
+    selectedCategories.some((category) => loc.category.includes(category))
   );
 
   const defaultCenter = [32.7157, -117.1611]; // San Diego 
