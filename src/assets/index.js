@@ -12,8 +12,7 @@ import markit from './projectpic/markit.png';
 import portfolio from './projectpic/portfolio.png';
 import stocks from './projectpic/stocks.png';
 import zodiak from './projectpic/zodiak.png';
-import health from './projectpic/health.png';
-import travel from './projectpic/travel.png';
+import customer from './projectpic/customer.png';
 import leetcode from './projectpic/leetcode.png';
 import logo from './logo.png'
 
@@ -32,8 +31,7 @@ export{
     markit,
     stocks,
     zodiak,
-    health,
-    travel,
+    customer,
     leetcode,
     logo,
 }

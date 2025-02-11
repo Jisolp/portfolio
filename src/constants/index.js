@@ -1,4 +1,4 @@
-import { email, github, linkedin, resume, finassist, markit, health, travel, portfolio, stocks, zodiak, leetcode} from "../assets";
+import { email, github, linkedin, resume, finassist, markit, customer, portfolio, stocks, zodiak, leetcode} from "../assets";
 
 export const navLinks = [
     {
@@ -39,19 +39,13 @@ export const socialMedia = [
 ];
 
 export const projectsLink = [
-    // {
-    //     id: "Travel",
-    //     image: travel,
-    //     title: "Travel Buddy",
-    //     techStack: [''],
-    //     description: "I’m developing a personalized travel planning app that brings together the best experiences tailored to each user’s unique interests and budget. Unlike other travel apps, this platform goes beyond generic recommendations by allowing users to select specific preferences—such as nature, city exploration, food, or nightlife—and by incorporating detailed budget and activity-level constraints. Users simply enter their travel dates, budget, and preferences, and the app generates a curated itinerary featuring optimized routes, activity suggestions, packing lists, and recommended flights, accommodations, and car rentals. What sets this app apart is its focus on real-time adaptability (for updates like weather changes), budget-conscious planning, and an eco-friendly travel option for sustainability-focused travelers. With downloadable itineraries and notifications for last-minute recommendations, my goal is to make travel both seamless and memorable for every type of adventurer.",
-    //     github: 'https://github.com/Jisolp'
-    // },
     {
-        id: "Health",
-        image: health,
-        title: "Health",
-        techStack: [''],
+        id: "Customer",
+        image: customer,
+        title: "Customer Retention Strategy",
+        techStack: ['Python'],
+        description: "The goal of this project is to analyze customer feedback and churn data, then develop a customer retention strategy that improves long-term customer loyalty and reduces churn. The project involves analyzing sentiment, identifying pain points, creating actionable insights, and proposing a retention plan that can help increase customer satisfaction and revenue.",
+        github: "https://github.com/Jisolp/customerRetention"
     },
     // {
     //     id: "Finassist",
