@@ -53,6 +53,13 @@ const ProjectDetail = () => {
                   </a>
                 </li>
               )}
+              {project.Dashboard && (
+                <li>
+                  <a href={project.Dashboard} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:opacity-70">
+                    AWS QuickSight
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
 

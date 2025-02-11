@@ -13,7 +13,7 @@ const Exploring = () => {
   };
 
   return (
-    <div className="grid grid-cols-3 h-screen gap-1 p-6 mt-9 relative">
+    <div className="grid grid-cols-3 h-99vh gap-1 p-6 mt-9 relative">
       {/* Left Side: Filters and Locations List */}
       <div className="col-span-1 z-10">
         <CategoryFilter
@@ -26,7 +26,7 @@ const Exploring = () => {
         </div>
       </div>
 
-      <div className="col-span-2 bottom-15 relative z-10">
+      <div className="col-span-2 relative z-10">
           <Map selectedCategories={selectedCategories}
                selectedLocation={selectedLocation} />
       </div>

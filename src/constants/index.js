@@ -39,45 +39,51 @@ export const socialMedia = [
 ];
 
 export const projectsLink = [
-    {
-        id: "Travel",
-        image: travel,
-        title: "Travel Buddy",
-        techStack: [''],
-        description: "I’m developing a personalized travel planning app that brings together the best experiences tailored to each user’s unique interests and budget. Unlike other travel apps, this platform goes beyond generic recommendations by allowing users to select specific preferences—such as nature, city exploration, food, or nightlife—and by incorporating detailed budget and activity-level constraints. Users simply enter their travel dates, budget, and preferences, and the app generates a curated itinerary featuring optimized routes, activity suggestions, packing lists, and recommended flights, accommodations, and car rentals. What sets this app apart is its focus on real-time adaptability (for updates like weather changes), budget-conscious planning, and an eco-friendly travel option for sustainability-focused travelers. With downloadable itineraries and notifications for last-minute recommendations, my goal is to make travel both seamless and memorable for every type of adventurer.",
-        github: 'https://github.com/Jisolp'
-    },
+    // {
+    //     id: "Travel",
+    //     image: travel,
+    //     title: "Travel Buddy",
+    //     techStack: [''],
+    //     description: "I’m developing a personalized travel planning app that brings together the best experiences tailored to each user’s unique interests and budget. Unlike other travel apps, this platform goes beyond generic recommendations by allowing users to select specific preferences—such as nature, city exploration, food, or nightlife—and by incorporating detailed budget and activity-level constraints. Users simply enter their travel dates, budget, and preferences, and the app generates a curated itinerary featuring optimized routes, activity suggestions, packing lists, and recommended flights, accommodations, and car rentals. What sets this app apart is its focus on real-time adaptability (for updates like weather changes), budget-conscious planning, and an eco-friendly travel option for sustainability-focused travelers. With downloadable itineraries and notifications for last-minute recommendations, my goal is to make travel both seamless and memorable for every type of adventurer.",
+    //     github: 'https://github.com/Jisolp'
+    // },
     {
         id: "Health",
         image: health,
         title: "Health",
         techStack: [''],
     },
-    {
-        id: "Finassist",
-        image: finassist,
-        title: "AI-Powered Personal Finance Assistant",
-        techStack: ['React','Node,js etc'],
-        description: "This full-stack web application provides a personalized finance management experience, enabling users to easily track income, expenses, and savings across accounts like HYSA and Roth IRA. Built with React, Node.js, and MongoDB, the app empowers users to set financial goals, analyze spending patterns, and make data-driven decisions. Features include budgeting tools, personalized spending insights, and email reminders to help users stay on track with their goals. A machine learning component leverages Python and TensorFlow to predict expenses and offer budgeting and investment recommendations, ensuring that users receive tailored, proactive financial advice for smarter financial planning.",
-        techStack: ['React','Node.js','MongoDB','Python','TensorFlow','Pandas'],
-        github: 'https://github.com/Jisolp/finassist',
-        figma: 'https://www.figma.com/design/1FSxv5cDnWBLjwNySjYNpM/fin-assist?node-id=0-1&node-type=canvas&t=Z8j33vQKJDRsegw7-0',
-    },
+    // {
+    //     id: "Finassist",
+    //     image: finassist,
+    //     title: "AI-Powered Personal Finance Assistant",
+    //     techStack: ['React','Node,js etc'],
+    //     description: "This full-stack web application provides a personalized finance management experience, enabling users to easily track income, expenses, and savings across accounts like HYSA and Roth IRA. Built with React, Node.js, and MongoDB, the app empowers users to set financial goals, analyze spending patterns, and make data-driven decisions. Features include budgeting tools, personalized spending insights, and email reminders to help users stay on track with their goals. A machine learning component leverages Python and TensorFlow to predict expenses and offer budgeting and investment recommendations, ensuring that users receive tailored, proactive financial advice for smarter financial planning.",
+    //     techStack: ['React','Node.js','MongoDB','Python','TensorFlow','Pandas'],
+    //     github: 'https://github.com/Jisolp/finassist',
+    //     figma: 'https://www.figma.com/design/1FSxv5cDnWBLjwNySjYNpM/fin-assist?node-id=0-1&node-type=canvas&t=Z8j33vQKJDRsegw7-0',
+    // },
     {
         id: "Stocks",
         image: stocks,
         title: "Financial Data Pipeline and Visualization System for Stock Market Indices",
         description: 
-        `<p>I like to keep my eyes on the S&P 500 index. So I worked on this project, which involves creating a data pipeline to process financial data from the S&P 500 index and utilizing machine learning models to predict stock market movements. The main components of the project are:</p>
+        `<p>This project is a fully automated pipeline that fetches, processes, and uploads financial data to AWS services such as S3 and RDS. The pipeline retrieves historical stock data from the Alpha Vantage API, processes the data into a clean format, and uploads it to an S3 bucket and an RDS database for storage and analysis. The system is integrated with AWS Lambda for serverless execution and AWS CloudWatch for monitoring the performance and health.</p>
         <br>
-        <h4><strong>Data Acquisition:</strong></h4>
-        <p>The project begins with acquiring raw S&P 500 data in CSV format.<p>
-        <h4><strong>Data Processing:</strong></h4>
-        <p>Using the <code>process_data.py</code> script, the raw data is loaded and processed.
-        <h4><strong>Model Training:</strong></h4>
-        <p>The <code>model_training.py</code> script leverages the processed data to train a machine learning model. In this case, I used a Random Forest Regressor to predict stock market index values.`,
-        techStack: ['Python', 'Pandas', 'Scikit-Learn', 'NumPy'],
-        github: "https://github.com/Jisolp/financial-data-pipeline-project-",
+        <h4><strong>Features:</strong></h4>
+        Data Fetching: Fetches financial data from Alpha Vantage API.
+
+        <ul>
+            <li>Data Processing: Validates and processes the raw data into a clean, usable format.</li>
+            <li>Storage: Uploads raw and processed data to AWS S3 for storage and further processing.</li>
+            <li>Database Integration: Uploads processed data to an AWS RDS database for long-term storage and querying.</li>
+            <li>CloudWatch Monitoring: Monitors the performance and health of AWS services in the pipeline (Lambda, S3, RDS).</li>
+            <li>Environment Variables: Secures sensitive data (e.g., API keys, credentials) in environment variables loaded from a .env file.</li>
+        </ul>`,
+
+        techStack: ['Python', 'AWS S3' , 'AWS RDS', 'AWS QuickSight', 'AWS CloudWatch'],
+        github: "https://github.com/Jisolp/fin_pipeline",
+        Dashboard: "https://us-east-2.quicksight.aws.amazon.com/sn/dashboards/aeef18bf-3466-4380-a95f-a996d73a60d8/views/a5439abc-19dc-4d95-9650-d4ba5e4e47bd?directory_alias=Jisol",
     },
     {
         id: "Portfolio",
