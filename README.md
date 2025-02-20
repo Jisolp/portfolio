@@ -1,1 +1,1 @@
-[This is my porfolio](https://jisolpark.netlify.app/)
+[This is my portfolio](https://jisolpark.netlify.app/)
