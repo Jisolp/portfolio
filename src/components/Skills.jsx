@@ -25,7 +25,8 @@ const Skills = () => {
             <li>React</li>
             <li>Node.js</li>
             <li>MongoDB</li>
-            <li>TensorFlow</li>
+            <li>Express</li>
+            {/* <li>TensorFlow</li> */}
           </ul>
         </div>
 
@@ -34,9 +35,9 @@ const Skills = () => {
           <h3 className="text-2xl font-semibold mb-2">Other Tools</h3>
           <ul className="list-disc pl-5 space-y-1">
             <li>Git</li>
-            <li>Docker</li>
+            {/* <li>Docker</li> */}
             <li>AWS</li>
-            <li>Postman</li>
+            {/* <li>Postman</li> */}
             <li>Linux/Unix</li>
           </ul>
         </div>

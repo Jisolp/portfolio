@@ -15,6 +15,10 @@ import zodiak from './projectpic/zodiak.png';
 import customer from './projectpic/customer.png';
 import leetcode from './projectpic/leetcode.png';
 import logo from './logo.png'
+import batchingInvestors from './projectpic/batchingInvestors.png';
+import massEmail from './projectpic/massEmail.png';
+import ducks from './projectpic/ducks.png';
+import sitting from './projectpic/sitting.png';
 
 export{
     close,
@@ -34,4 +38,8 @@ export{
     customer,
     leetcode,
     logo,
+    batchingInvestors,
+    massEmail,
+    ducks,
+    sitting,
 }

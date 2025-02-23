@@ -15,7 +15,7 @@ const About = () => (
 
       <h1 className={`${styles.heading1}`}>About Me</h1>
       <p className={`${styles.paragraph}  leading-[20px] md:leading-[24px] mt-4`}> 
-        Hi, I am currently a Math, CS student at UCSD. I am a software engineer with a strong background in <strong>full-stack development and AI</strong>. I have experiences from developing scalable web applications to implementing AI-driven solutions. In my free time, I love reading, running, and snowboarding!
+      Hi, I graduated from UCSD with a degree in Math and Computer Science. I'm a software engineer with experience in <strong>full-stack development and AI</strong>. From building scalable web applications to implementing AI-driven solutions, I enjoy tackling complex problems. In my free time, I love reading and snowboarding!
       </p>
 
       <p className={`${styles.paragraph} leading-[20px] md:leading-[24px] mt-4`}> 

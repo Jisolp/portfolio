@@ -11,7 +11,7 @@ const Hero = () => (
     <div className={`absolute top-1/3 left-0 right-0 text-center z-30`}>
       <h1 className="font-semibold font-poppin text-[30px] xs:text-[80px] text-neutral-800 xs:leading-[140px] leading-[70.8px] w-full"> Hi, I'm Jisol! </h1>
       <p className="font-mono text-[17px] xs:text-[22px] text-black xs:leading-[30px] leading-[30px] w-full">
-        I am a software engineer, and I love {" "}
+        I love {" "}
         <Link to="/exploring" className="underline hover:opacity-30 cursor-pointer">exploring</Link> and {" "}
         <a href="#projects" className="underline hover:opacity-30 cursor-pointer">building</a>
       </p>

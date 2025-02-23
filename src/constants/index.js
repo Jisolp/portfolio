@@ -1,4 +1,4 @@
-import { email, github, linkedin, resume, finassist, markit, customer, portfolio, stocks, zodiak, leetcode} from "../assets";
+import { email, github, linkedin, resume, finassist, markit, customer, portfolio, stocks, zodiak, leetcode, batchingInvestors, massEmail, ducks, sitting} from "../assets";
 
 export const navLinks = [
     {
@@ -40,23 +40,29 @@ export const socialMedia = [
 
 export const projectsLink = [
     {
-        id: "Customer",
-        image: customer,
-        title: "Customer Retention Strategy",
-        techStack: ['Python'],
-        description: "The goal of this project is to analyze customer feedback and churn data, then develop a customer retention strategy that improves long-term customer loyalty and reduces churn. The project involves analyzing sentiment, identifying pain points, creating actionable insights, and proposing a retention plan that can help increase customer satisfaction and revenue.",
-        github: "https://github.com/Jisolp/customerRetention"
+        id: "photoBooth",
+        image: ducks,
+        title: "[WIP] Photo Booth with Chinguz",
+        techStack: ['React, JS'],
+        description: `<p>My sister is obsessed with the korean style photobooth but since it is not easily accessible, I decided to make this for her and her friends! 
+        <br>
+        A fun and interactive web app where up to 4 participants can join a virtual photo booth session, where they can pick the layout, borders and take group photos together!</p>`,
+        // github: "https://github.com/Jisolp/howToHost",
     },
-    // {
-    //     id: "Finassist",
-    //     image: finassist,
-    //     title: "AI-Powered Personal Finance Assistant",
-    //     techStack: ['React','Node,js etc'],
-    //     description: "This full-stack web application provides a personalized finance management experience, enabling users to easily track income, expenses, and savings across accounts like HYSA and Roth IRA. Built with React, Node.js, and MongoDB, the app empowers users to set financial goals, analyze spending patterns, and make data-driven decisions. Features include budgeting tools, personalized spending insights, and email reminders to help users stay on track with their goals. A machine learning component leverages Python and TensorFlow to predict expenses and offer budgeting and investment recommendations, ensuring that users receive tailored, proactive financial advice for smarter financial planning.",
-    //     techStack: ['React','Node.js','MongoDB','Python','TensorFlow','Pandas'],
-    //     github: 'https://github.com/Jisolp/finassist',
-    //     figma: 'https://www.figma.com/design/1FSxv5cDnWBLjwNySjYNpM/fin-assist?node-id=0-1&node-type=canvas&t=Z8j33vQKJDRsegw7-0',
-    // },
+    {
+        id: "howToHost",
+        image: ducks,
+        title: "[WIP] howToHost",
+        techStack: ['Node.js, Express.js, SQLite, React'],
+        description: `<p>This project is designed to optimize the seating process for both reservations and walk-ins. It allows the host to efficiently allocate tables based on the number of guests and the timing of reservations. The system takes into account factors such as the availability of servers, table sizes, and reservation times, aiming to minimize table turnover conflicts and maximize space utilization. </p>
+        <br>
+        When I was a hostess at KBBQ, my manager wanted to optimize the tables being sat, while my servers begged me not to overload their sections. It was a constant struggle to keep both sides happy.</p>
+        <p> So, I built HowToHost—a seating tool that optimizes table usage based on the reservations, the server sections and it also sends reservation reminders via text so I don't have to! 
+        </p>
+        <br> 
+        <p> Basically, it helps hosts make better decisions without the stress :D </p>`,
+        github: "https://github.com/Jisolp/howToHost",
+    },
     {
         id: "Stocks",
         image: stocks,
@@ -78,6 +84,22 @@ export const projectsLink = [
         techStack: ['Python', 'AWS S3' , 'AWS RDS', 'AWS QuickSight', 'AWS CloudWatch'],
         github: "https://github.com/Jisolp/fin_pipeline",
         Dashboard: "https://us-east-2.quicksight.aws.amazon.com/sn/dashboards/aeef18bf-3466-4380-a95f-a996d73a60d8/views/a5439abc-19dc-4d95-9650-d4ba5e4e47bd?directory_alias=Jisol",
+    },
+    {
+        id: "massEmail",
+        image: massEmail,
+        title: "Personalized Email Automation",
+        techStack: ['Python'],
+        description: "This project automates sending personalized emails in batches to a list of contacts from a CSV file. It customizes each email with the recipient's name and company, sends them in groups of 50, and tracks progress using a batch number stored in a file. The script connects to an SMTP server to send the emails securely and includes error handling and a 1-second delay between emails to avoid server overload. It automatically continues from the last sent batch if interrupted.",
+        github: "https://github.com/Jisolp/personalizedMassEmail",
+    },
+    {
+        id: "batchingInvestors",
+        image: batchingInvestors,
+        title: "Batching Investors",
+        techStack: ['Python'],
+        description: "The script analyzes investor descriptions from an Excel sheet, checks how well they match specific industry-related keywords, assigns priority levels based on keyword relevance, and organizes the data into batches for further analysis or outreach.",
+        github: "https://github.com/Jisolp/batchingInvestor",
     },
     {
         id: "Portfolio",
